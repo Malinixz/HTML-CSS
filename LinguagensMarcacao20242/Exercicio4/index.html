@@ -1,80 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo de Maria Silva</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            border: 1px solid #ccc;
-            padding: 20px;
-        }
-        .profile {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-        .profile img {
-            border: 2px solid gray;
-            width: 150px;
-            height: 150px;
-        }
-        .contact {
-            border: 2px solid gray;
-            padding: 10px;
-            margin-top: 10px;
-            text-align: center;
-        }
-        .section {
-            border: 2px solid gray;
-            padding: 10px;
-            margin-top: 20px;
-        }
-        .section h2 {
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="profile">
-            <h1>Miguel Malini</h1>
-            <img src="AvatarMaker.png" alt="Foto de Perfil">
-            <div class="contact">
-                <p>Rede Social</p>
-                <p>Idade</p>
-                <p>meuemail@gmail.com</p>
-            </div>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Currículo</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <div>
+            <h1 id="nome">Miguel Malini</h1>
+            <img id="foto" src="AvatarMaker.png" height="200" alt="Foto de Perfil">        
+        </div>
+
+        <div class="info-pessoal">
+            <p>Rede Social X</p>
+            <p>22 Anos</p>
+            <p>emailX@gmail.com</p>
         </div>
 
         <ol>
-            <li class="section">
-                <h2>Formações Acadêmicas</h2>
-                <p><strong>1995 - 2000</strong> | <a href="https://www.ufes.br" target="_blank">Universidade Federal do Espírito Santo (UFES)</a></p>
-                <p>Ciência da Computação</p>
-                <p><strong>1990 a 1993</strong> | <a href="https://www.etf.edu.br" target="_blank">Escola Técnica Federal</a></p>
-                <p>Técnico em Processamento de Dados</p>
+            <li class="minhadiv">
+                <h2 class="titulo">Formações Acadêmicas</h2>
+                <p><strong>2021 - 2025</strong> | <a href="https://serra.ifes.edu.br" target="_blank">Instituto Federal do Espírito Santo (IFES)</a></p>
+                <p>Sistemas de Informação</p>
+                <p><strong>2017 a 2020</strong> | <a href="https://vitoria.ifes.edu.br" target="_blank">Instituto Federal do Espírito Santo (IFES)</a></p>
+                <p>Técnico em Estradas</p>
             </li>
 
-            <li class="section">
-                <h2>Formações Complementares</h2>
-                <p><strong>1990 a 2000</strong> | Inglês</p>
+            <li class="minhadiv">
+                <h2 class="titulo">Formações Complementares</h2>
+                <p><strong>2017 a 2019</strong> | Inglês</p>
             </li>
 
-            <li class="section">
-                <h2>Soft Skills</h2>
+            <li class="minhadiv">
+                <h2 class="titulo">Soft Skills</h2>
                 <ul>
                     <li><a href="empatia.html">Empatia</a></li>
                     <li><a href="etica.html">Ética</a></li>
                 </ul>
             </li>
         </ol>
-    </div>
-</body>
+    </body>
 </html>
