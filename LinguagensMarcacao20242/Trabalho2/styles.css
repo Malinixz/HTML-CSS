@@ -1,33 +1,85 @@
-/* Cor de fundo da página */
+/* Estilos gerais */
 body {
     background-color: #f0f0f0;
 }
 
-/* Estilo da div principal */
 .container {
     background-color: #ffffff;
     width: 960px;
     margin: auto;
 }
 
-/* Estilos de header e footer */
 header, footer {
     background-color: #333333;
     color: #ffffff;
 }
 
-/* Fonte personalizada do Google Fonts */
 h1 {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Estilo dos links */
 a {
     color: #0066cc;
-    text-decoration: none; /* Remove o sublinhado */
+    text-decoration: none;
 }
 
-/* Tamanho da imagem */
-#imagem-blog {
-    width: 960px;
+/* Estilos para a tabela na página de Modelos */
+table {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+td img {
+    border-radius: 25px;
+    width: 100%;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Estilos para o formulário na página de Contato */
+section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+section form input[type="text"], 
+section form input[type="email"], 
+section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+section form input[type="text"]:focus, 
+section form input[type="email"]:focus, 
+section form textarea:focus {
+    background-color: #e0f7fa;
+    border-color: #00796b;
+}
+
+section form button {
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section form button:hover {
+    background-color: #004ba0;
 }
