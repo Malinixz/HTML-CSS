@@ -1,0 +1,33 @@
+/* Cor de fundo da página */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Estilo da div principal */
+.container {
+    background-color: #ffffff;
+    width: 960px;
+    margin: auto;
+}
+
+/* Estilos de header e footer */
+header, footer {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Fonte personalizada do Google Fonts */
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilo dos links */
+a {
+    color: #0066cc;
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+/* Tamanho da imagem */
+#imagem-blog {
+    width: 960px;
+}
